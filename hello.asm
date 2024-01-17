@@ -16,7 +16,7 @@ _start:
     mov edi, 0
     syscall
 
-; Set variables
+; Set program variables
 section .data
     message db "Hello, World", 0xa
     len equ $ - message
