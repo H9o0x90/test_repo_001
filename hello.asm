@@ -2,6 +2,7 @@ global _start
 
 section .text
 
+; Main entry point
 _start:
     ; Print call
     mov eax, 1
@@ -15,6 +16,7 @@ _start:
     mov edi, 0
     syscall
 
+; Set variables
 section .data
     message db "Hello, World", 0xa
     len equ $ - message
