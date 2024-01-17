@@ -1,5 +1,6 @@
 global _start
 
+; START
 section .text
 
 ; Main entry point
