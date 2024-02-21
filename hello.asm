@@ -1,5 +1,6 @@
 global _start
 
+; Code section
 section .text
 
 ; Main entry point
